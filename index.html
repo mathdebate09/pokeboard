@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,201 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/icon.svg" type="image/x-icon">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="sidebar">
+            <div class="side-header">
+                <img src="assets/dashboard-ui/dashboard.svg">
+                <p>Dashboard</p>
+            </div>
+
+            <ul class="primary-directs">
+                <li>
+                    <a><img src="assets/dashboard-ui/home.svg">
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a><img src="assets/dashboard-ui/profile.svg">
+                        <p>Profile</p>
+                    </a>
+                </li>
+                <li>
+                    <a><img src="assets/dashboard-ui/history.svg">
+                        <p>History</p>
+                    </a>
+                </li>
+                <li>
+                    <a><img src="assets/dashboard-ui/tasks.svg">
+                        <p>Tasks</p>
+                    </a>
+                </li>
+                <li>
+                    <a><img src="assets/dashboard-ui/community.svg">
+                        <p>Community</p>
+                    </a>
+                </li>
+                <li>
+                    <a><img src="assets/dashboard-ui/settings.svg">
+                        <p>Settings</p>
+                    </a>
+                </li>
+                <li>
+                    <a><img src="assets/dashboard-ui/security.svg">
+                        <p>Security</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <div class="scrollable">
+                <form class="form">
+                    <button>
+                        <img src="assets/website-ui/search.svg">
+                    </button>
+                    <input class="input" placeholder="Type your text" required="" type="text">
+                    <button class="reset" type="reset">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </form>
+
+                <div class="home-button">
+                    <img src="assets/website-ui/bell.svg">
+                    <img src="assets/profile-picture/ash.jpeg">
+                    <p class="home-admin">Ash Ketchum</p>
+                </div>
+            </div>
+
+            <div class="profile-bar">
+                <img src="assets/profile-picture/ash.jpeg">
+                <p class="admin-pretext">Hey there,</p>
+                <p class="profile-admin">Ash Ketchum (@ashk)</p>
+            </div>
+
+            <div class="media-bars">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="episode-blog">
+                <p>Episode Lists</p>
+
+                <div class="card">
+                    <p class="header">Arceus' Revival</p>
+                    <p class="content"></p>
+                    <div class="actions">
+                        <img src="assets/website-ui/star.svg">
+                        <img src="assets/website-ui/view.svg">
+                        <img src="assets/website-ui/fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="header">Dragonite Revealed</p>
+                    <p class="content"></p>
+                    <div class="actions">
+                        <img src="assets/website-ui/star.svg">
+                        <img src="assets/website-ui/view.svg">
+                        <img src="assets/website-ui/fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="header"></p>
+                    <p class="content"></p>
+                    <div class="actions">
+                        <img src="assets/website-ui/star.svg">
+                        <img src="assets/website-ui/view.svg">
+                        <img src="assets/website-ui/fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="header">Arceus' Revival</p>
+                    <p class="content"></p>
+                    <div class="actions">
+                        <img src="assets/website-ui/star.svg">
+                        <img src="assets/website-ui/view.svg">
+                        <img src="assets/website-ui/fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="header">Arceus' Revival</p>
+                    <p class="content"></p>
+                    <div class="actions">
+                        <img src="assets/website-ui/star.svg">
+                        <img src="assets/website-ui/view.svg">
+                        <img src="assets/website-ui/fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="header">Arceus' Revival</p>
+                    <p class="content"></p>
+                    <div class="actions">
+                        <img src="assets/website-ui/star.svg">
+                        <img src="assets/website-ui/view.svg">
+                        <img src="assets/website-ui/fork.svg">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="achievements">
+                <p>Achievements</p>
+
+                <div class="badges">
+                    <p class="header"></p>
+                    <p class="content"></p>
+                </div>
+                <div class="badges">
+                    <p class="header"></p>
+                    <p class="content"></p>
+                </div>
+                <div class="badges">
+                    <p class="header"></p>
+                    <p class="content"></p>
+                </div>
+            </div>
+
+            <div class="pokemon-list">
+                <p>Pokemons</p>
+
+                <div class="poke-card">
+                    <a>
+                        <img src="assets/profile-picture/squirtle.jpeg">
+                        <p class="username">@bossquir</p>
+                    </a>
+                    <p class="name">Water Type Squirtle</p>
+                </div>
+                <div class="poke-card">
+                    <a>
+                        <img src="assets/profile-picture/psyduck.jpeg">
+                        <p class="username">@psyhey</p>
+                    </a>
+                    <p class="name">Psychic Type Psyduck</p>
+                </div>
+                <div class="poke-card">
+                    <a>
+                        <img src="assets/profile-picture/snorlask.jpeg">
+                        <p class="username">@immasleep</p>
+                    </a>
+                    <p class="name">Normal Type Snorlask</p>
+                </div>
+                <div class="poke-card">
+                    <a>
+                        <img src="assets/profile-picture/riolu.jpeg">
+                        <p class="username">@heyitsrio</p>
+                    </a>
+                    <p class="name">Fighting Type Riolu</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
