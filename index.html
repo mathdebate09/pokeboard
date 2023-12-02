@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="assets/icon.svg" type="image/x-icon">
+    <link rel="icon" href="assets/website-ui/icon.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -43,6 +43,9 @@
                         <p>Community</p>
                     </a>
                 </li>
+            </ul>
+
+            <ul class="secondary-directs">
                 <li>
                     <a><img src="assets/dashboard-ui/settings.svg">
                         <p>Settings</p>
@@ -57,26 +60,26 @@
         </div>
 
         <div class="header">
-            <div class="scrollable">
-                <form class="form">
-                    <button>
-                        <img src="assets/website-ui/search.svg">
-                    </button>
-                    <input class="input" placeholder="Type your text" required="" type="text">
-                    <button class="reset" type="reset">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
-                        </svg>
-                    </button>
-                </form>
 
-                <div class="home-button">
-                    <img src="assets/website-ui/bell.svg">
-                    <img src="assets/profile-picture/ash.jpeg">
-                    <p class="home-admin">Ash Ketchum</p>
-                </div>
+            <form class="form">
+                <button>
+                    <img src="assets/website-ui/search.svg">
+                </button>
+                <input class="input" placeholder="More trainers" required="" type="text">
+                <button class="reset" type="reset">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </form>
+
+            <div class="home-button">
+                <img src="assets/website-ui/bell.svg">
+                <img src="assets/profile-picture/ash.jpeg">
+                <p class="home-admin">Ash Ketchum</p>
             </div>
+
 
             <div class="profile-bar">
                 <img src="assets/profile-picture/ash.jpeg">
@@ -85,9 +88,9 @@
             </div>
 
             <div class="media-bars">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
+                <a><button>New</button></a>
+                <a><button>Upload</button></a>
+                <a><button>Share</button></a>
             </div>
         </div>
 
