@@ -4,7 +4,7 @@ a basic admin dashboard (All-Grid Challenge)]
 > [Live Website](https://mathdebate09.github.io/pokeboard/)
 
 ## Preview
-![Demo Image](assets/demo.png)
+![image](i.imgur.com/IFvAvJ7.png)
 
 ## Languages
 [![HTML](https://img.shields.io/badge/-HTML-000?style=for-the-badge&logo=html5)](#) [![CSS](https://img.shields.io/badge/-CSS-000?style=for-the-badge&logo=css3&logoColor=1572B6)](#)
