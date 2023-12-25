@@ -43,10 +43,7 @@
                         <p>Community</p>
                     </a>
                 </li>
-            </ul>
-
-            <ul class="secondary-directs">
-                <li>
+                <li class="secondary-directs">
                     <a><img src="assets/dashboard-ui/settings.svg">
                         <p>Settings</p>
                     </a>
@@ -66,18 +63,12 @@
                     <img src="assets/website-ui/search.svg">
                 </button>
                 <input class="input" placeholder="More trainers" required="" type="text">
-                <button class="reset" type="reset">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                </button>
             </form>
 
             <div class="home-button">
-                <img src="assets/website-ui/bell.svg">
-                <img src="assets/profile-picture/ash.jpeg">
-                <p class="home-admin">Ash Ketchum</p>
+                <img class="bell" src="assets/website-ui/bell.svg">
+                <img class="home-pfp" src="assets/profile-picture/ash.jpeg">
+                <p>Ash Ketchum</p>
             </div>
 
 
@@ -87,7 +78,7 @@
                 <p class="profile-admin">Ash Ketchum (@ashk)</p>
             </div>
 
-            <div class="media-bars">
+            <div class="media-bar">
                 <a><button>New</button></a>
                 <a><button>Upload</button></a>
                 <a><button>Share</button></a>
@@ -96,112 +87,142 @@
 
         <div class="content">
             <div class="episode-blog">
-                <p>Episode Lists</p>
+                <p class="episode-blog-header ">Episode Lists</p>
 
-                <div class="card">
-                    <p class="header">Arceus' Revival</p>
-                    <p class="content"></p>
-                    <div class="actions">
-                        <img src="assets/website-ui/star.svg">
-                        <img src="assets/website-ui/view.svg">
-                        <img src="assets/website-ui/fork.svg">
+                <div class="card-stack">
+                    <div class="card">
+                        <p class="card-header">Arceus uses Judgement!</p>
+                        <p class="summary">
+                            Arceus showcases its power using "Judgment" to maintain balance; a captivating episode
+                            highlighting its divine authority and formidable strength.</p>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=A7sWzJRZNsY"><img
+                                    src="assets/website-ui/star.svg"></a>
+                            <a href="https://www.youtube.com/watch?v=A7sWzJRZNsY"><img
+                                    src="assets/website-ui/view.svg"></a>
+                            <a href="https://www.000tube.com/watch?v=A7sWzJRZNsY"><img
+                                    src="assets/website-ui/fork.svg"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <p class="header">Dragonite Revealed</p>
-                    <p class="content"></p>
-                    <div class="actions">
-                        <img src="assets/website-ui/star.svg">
-                        <img src="assets/website-ui/view.svg">
-                        <img src="assets/website-ui/fork.svg">
+                    <div class="card">
+                        <p class="card-header">Dragonite Revealed</p>
+                        <p class="summary">
+                            Dragonite unveils a mysterious melody, its haunting song revealing hidden secrets; an
+                            enigmatic and captivating episode shrouded in intrigue.</p>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=umZkT6cU9Xc"><img
+                                    src="assets/website-ui/star.svg"></a>
+                            <a href="https://www.youtube.com/watch?v=umZkT6cU9Xc"><img
+                                    src="assets/website-ui/view.svg"></a>
+                            <a href="https://www.000tube.com/watch?v=umZkT6cU9Xc"><img
+                                    src="assets/website-ui/fork.svg"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <p class="header"></p>
-                    <p class="content"></p>
-                    <div class="actions">
-                        <img src="assets/website-ui/star.svg">
-                        <img src="assets/website-ui/view.svg">
-                        <img src="assets/website-ui/fork.svg">
+                    <div class="card">
+                        <p class="card-header">Dialga vs Palkia</p>
+                        <p class="summary">
+                            Dialga and Palkia clash in a cosmic duel, harmonizing their powers in a celestial symphony,
+                            shaping reality with every note.</p>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=PA8zJNXR1LQ"><img
+                                    src="assets/website-ui/star.svg"></a>
+                            <a href="https://www.youtube.com/watch?v=PA8zJNXR1LQ"><img
+                                    src="assets/website-ui/view.svg"></a>
+                            <a href="https://www.000tube.com/watch?v=PA8zJNXR1LQ"><img
+                                    src="assets/website-ui/fork.svg"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <p class="header">Arceus' Revival</p>
-                    <p class="content"></p>
-                    <div class="actions">
-                        <img src="assets/website-ui/star.svg">
-                        <img src="assets/website-ui/view.svg">
-                        <img src="assets/website-ui/fork.svg">
+                    <div class="card">
+                        <p class="card-header">Mewtwo vs Shiny Gensect</p>
+                        <p class="summary">Mewtwo confronts Shiny Genesect in a clash of psychic and technological
+                            might, unleashing a dazzling battle with unforeseen consequences.</p>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=qM9_91sYvUo"><img
+                                    src="assets/website-ui/star.svg"></a>
+                            <a href="https://www.youtube.com/watch?v=qM9_91sYvUo"><img
+                                    src="assets/website-ui/view.svg"></a>
+                            <a href="https://www.000tube.com/watch?v=qM9_91sYvUo"><img
+                                    src="assets/website-ui/fork.svg"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <p class="header">Arceus' Revival</p>
-                    <p class="content"></p>
-                    <div class="actions">
-                        <img src="assets/website-ui/star.svg">
-                        <img src="assets/website-ui/view.svg">
-                        <img src="assets/website-ui/fork.svg">
+                    <div class="card">
+                        <p class="card-header">Giratina & Sky Warrior</p>
+                        <p class="summary">
+                            Giratina and Sky Warrior unite against a common threat, traversing dimensions in a
+                            captivating episode filled with mythical encounters and teamwork.</p>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=7DliP7EX9To"><img
+                                    src="assets/website-ui/star.svg"></a>
+                            <a href="https://www.youtube.com/watch?v=7DliP7EX9To"><img
+                                    src="assets/website-ui/view.svg"></a>
+                            <a href="https://www.000tube.com/watch?v=7DliP7EX9To"><img
+                                    src="assets/website-ui/fork.svg"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <p class="header">Arceus' Revival</p>
-                    <p class="content"></p>
-                    <div class="actions">
-                        <img src="assets/website-ui/star.svg">
-                        <img src="assets/website-ui/view.svg">
-                        <img src="assets/website-ui/fork.svg">
+                    <div class="card">
+                        <p class="card-header">Mega Rayquaza vs Deoxys</p>
+                        <p class="summary">
+                            Mega Rayquaza battles Deoxys in a sky-shattering clash, showcasing primal power and
+                            extraterrestrial might in a breathtaking and intense episode.</p>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=jdU_j6jIkXw"><img
+                                    src="assets/website-ui/star.svg"></a>
+                            <a href="https://www.youtube.com/watch?v=jdU_j6jIkXw"><img
+                                    src="assets/website-ui/view.svg"></a>
+                            <a href="https://www.youtube.com/watch?v=jdU_j6jIkXw"><img
+                                    src="assets/website-ui/fork.svg"></a>
+                        </div>
                     </div>
                 </div>
 
             </div>
 
             <div class="achievements">
-                <p>Achievements</p>
+                <p class="badge-header">Achievements</p>
 
-                <div class="badges">
-                    <p class="header"></p>
-                    <p class="content"></p>
-                </div>
-                <div class="badges">
-                    <p class="header"></p>
-                    <p class="content"></p>
-                </div>
-                <div class="badges">
-                    <p class="header"></p>
-                    <p class="content"></p>
+                <div class="badge-stack">
+                    <div class="badges">
+                        <p class="badge-name">Boulder Badge (Pewter City)</p>
+                        <p class="badge-desp" id="botom-border">Ash defeats Brock using Pikachu's agility, earning the
+                            Boulder Badge symbolizing his first Pokémon League step.</p>
+                    </div>
+                    <div class="badges">
+                        <p class="badge-name">Cascade Badge (Cerulean City)</p>
+                        <p class="badge-desp" id="botom-border">Ash overcomes Misty's Water-type Pokémon with
+                            creativity, securing the Cascade Badge and forging a friendly rivalry.</p>
+                    </div>
+                    <div class="badges">
+                        <p class="badge-name">Thunder Badge (Vermilion City)</p>
+                        <p class="badge-desp">In a close battle against Lt. Surge, Ash's Pikachu prevails, earning the
+                            Thunder Badge and respect for his skills.</p>
+                    </div>
                 </div>
             </div>
 
             <div class="pokemon-list">
-                <p>Pokemons</p>
+                <p class="list-header">Pokemons</p>
 
-                <div class="poke-card">
-                    <a>
+                <div class="pokelist-stack">
+                    <div class="poke-card">
                         <img src="assets/profile-picture/squirtle.jpeg">
-                        <p class="username">@bossquir</p>
-                    </a>
-                    <p class="name">Water Type Squirtle</p>
-                </div>
-                <div class="poke-card">
-                    <a>
+                        <p class="username">@bossquir</p>                       
+                        <p class="name">Water Type Squirtle</p>
+                    </div>
+                    <div class="poke-card">                       
                         <img src="assets/profile-picture/psyduck.jpeg">
-                        <p class="username">@psyhey</p>
-                    </a>
-                    <p class="name">Psychic Type Psyduck</p>
-                </div>
-                <div class="poke-card">
-                    <a>
+                        <p class="username">@psyhey</p>                       
+                        <p class="name">Psychic Type Psyduck</p>
+                    </div>
+                    <div class="poke-card">
                         <img src="assets/profile-picture/snorlask.jpeg">
                         <p class="username">@immasleep</p>
-                    </a>
-                    <p class="name">Normal Type Snorlask</p>
-                </div>
-                <div class="poke-card">
-                    <a>
+                        <p class="name">Normal Type Snorlask</p>
+                    </div>
+                    <div class="poke-card">
                         <img src="assets/profile-picture/riolu.jpeg">
                         <p class="username">@heyitsrio</p>
-                    </a>
-                    <p class="name">Fighting Type Riolu</p>
+                        <p class="name">Fighting Type Riolu</p>
+                    </div>
                 </div>
             </div>
         </div>
